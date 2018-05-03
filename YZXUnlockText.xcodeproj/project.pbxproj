@@ -1,0 +1,650 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		112814B91FA1783000B1AE0E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 112814B81FA1783000B1AE0E /* AppDelegate.m */; };
+		112814C11FA1783000B1AE0E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 112814C01FA1783000B1AE0E /* Assets.xcassets */; };
+		112814C41FA1783000B1AE0E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 112814C21FA1783000B1AE0E /* LaunchScreen.storyboard */; };
+		112814C71FA1783000B1AE0E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 112814C61FA1783000B1AE0E /* main.m */; };
+		112814D11FA1783000B1AE0E /* unlockTextTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 112814D01FA1783000B1AE0E /* unlockTextTests.m */; };
+		112814DC1FA1783000B1AE0E /* unlockTextUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 112814DB1FA1783000B1AE0E /* unlockTextUITests.m */; };
+		112814EC1FA1793A00B1AE0E /* LocalAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 112814EB1FA1793A00B1AE0E /* LocalAuthentication.framework */; };
+		112814F01FA17B5000B1AE0E /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 112814EE1FA17B5000B1AE0E /* LoginViewController.m */; };
+		112814F11FA17B5000B1AE0E /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 112814EF1FA17B5000B1AE0E /* LoginViewController.xib */; };
+		11828D2E1FA181BF009B3609 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11828D2D1FA181BF009B3609 /* HomeViewController.m */; };
+		11828D301FA181D1009B3609 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 11828D2F1FA181D1009B3609 /* HomeViewController.xib */; };
+		11F5E5CB1FA1CA2700122A28 /* UnlockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11F5E5C91FA1CA2700122A28 /* UnlockViewController.m */; };
+		11F5E5CC1FA1CA2700122A28 /* UnlockViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 11F5E5CA1FA1CA2700122A28 /* UnlockViewController.xib */; };
+		11F5E5D01FA1CDF000122A28 /* GesturesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11F5E5CE1FA1CDF000122A28 /* GesturesViewController.m */; };
+		11F5E5D11FA1CDF000122A28 /* GesturesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 11F5E5CF1FA1CDF000122A28 /* GesturesViewController.xib */; };
+		11F5E5D51FA1DA4A00122A28 /* TouchIDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11F5E5D31FA1DA4A00122A28 /* TouchIDViewController.m */; };
+		11F5E5D61FA1DA4A00122A28 /* TouchIDViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 11F5E5D41FA1DA4A00122A28 /* TouchIDViewController.xib */; };
+		11F5E5D91FA1DD2100122A28 /* PointView.m in Sources */ = {isa = PBXBuildFile; fileRef = 11F5E5D81FA1DD2100122A28 /* PointView.m */; };
+		11FED0B91FA2D49B0097AD45 /* GesturesView.m in Sources */ = {isa = PBXBuildFile; fileRef = 11FED0B81FA2D49A0097AD45 /* GesturesView.m */; };
+		85473552207AF46500F28A94 /* YZXKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = 85473551207AF46500F28A94 /* YZXKeychain.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		112814CD1FA1783000B1AE0E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 112814AC1FA1783000B1AE0E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 112814B31FA1783000B1AE0E;
+			remoteInfo = unlockText;
+		};
+		112814D81FA1783000B1AE0E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 112814AC1FA1783000B1AE0E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 112814B31FA1783000B1AE0E;
+			remoteInfo = unlockText;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		112814B41FA1783000B1AE0E /* YZXUnlockText.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YZXUnlockText.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		112814B71FA1783000B1AE0E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		112814B81FA1783000B1AE0E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		112814C01FA1783000B1AE0E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		112814C31FA1783000B1AE0E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		112814C51FA1783000B1AE0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		112814C61FA1783000B1AE0E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		112814CC1FA1783000B1AE0E /* YZXUnlockTextTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YZXUnlockTextTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		112814D01FA1783000B1AE0E /* unlockTextTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = unlockTextTests.m; sourceTree = "<group>"; };
+		112814D21FA1783000B1AE0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		112814D71FA1783000B1AE0E /* YZXUnlockTextUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YZXUnlockTextUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		112814DB1FA1783000B1AE0E /* unlockTextUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = unlockTextUITests.m; sourceTree = "<group>"; };
+		112814DD1FA1783000B1AE0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		112814EB1FA1793A00B1AE0E /* LocalAuthentication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LocalAuthentication.framework; path = System/Library/Frameworks/LocalAuthentication.framework; sourceTree = SDKROOT; };
+		112814ED1FA17B5000B1AE0E /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		112814EE1FA17B5000B1AE0E /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		112814EF1FA17B5000B1AE0E /* LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		11828D2C1FA181BF009B3609 /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		11828D2D1FA181BF009B3609 /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		11828D2F1FA181D1009B3609 /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		11F5E5C81FA1CA2700122A28 /* UnlockViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UnlockViewController.h; sourceTree = "<group>"; };
+		11F5E5C91FA1CA2700122A28 /* UnlockViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UnlockViewController.m; sourceTree = "<group>"; };
+		11F5E5CA1FA1CA2700122A28 /* UnlockViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UnlockViewController.xib; sourceTree = "<group>"; };
+		11F5E5CD1FA1CDF000122A28 /* GesturesViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GesturesViewController.h; sourceTree = "<group>"; };
+		11F5E5CE1FA1CDF000122A28 /* GesturesViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GesturesViewController.m; sourceTree = "<group>"; };
+		11F5E5CF1FA1CDF000122A28 /* GesturesViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GesturesViewController.xib; sourceTree = "<group>"; };
+		11F5E5D21FA1DA4A00122A28 /* TouchIDViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TouchIDViewController.h; sourceTree = "<group>"; };
+		11F5E5D31FA1DA4A00122A28 /* TouchIDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TouchIDViewController.m; sourceTree = "<group>"; };
+		11F5E5D41FA1DA4A00122A28 /* TouchIDViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TouchIDViewController.xib; sourceTree = "<group>"; };
+		11F5E5D71FA1DD2100122A28 /* PointView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PointView.h; sourceTree = "<group>"; };
+		11F5E5D81FA1DD2100122A28 /* PointView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PointView.m; sourceTree = "<group>"; };
+		11FED0B71FA2D49A0097AD45 /* GesturesView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GesturesView.h; sourceTree = "<group>"; };
+		11FED0B81FA2D49A0097AD45 /* GesturesView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GesturesView.m; sourceTree = "<group>"; };
+		85473550207AF46400F28A94 /* YZXKeychain.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZXKeychain.h; sourceTree = "<group>"; };
+		85473551207AF46500F28A94 /* YZXKeychain.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZXKeychain.m; sourceTree = "<group>"; };
+		85473553207AF47300F28A94 /* YZXUnlockText.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = YZXUnlockText.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		112814B11FA1783000B1AE0E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				112814EC1FA1793A00B1AE0E /* LocalAuthentication.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		112814C91FA1783000B1AE0E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		112814D41FA1783000B1AE0E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		112814AB1FA1783000B1AE0E = {
+			isa = PBXGroup;
+			children = (
+				85473553207AF47300F28A94 /* YZXUnlockText.entitlements */,
+				112814B61FA1783000B1AE0E /* unlockText */,
+				112814CF1FA1783000B1AE0E /* unlockTextTests */,
+				112814DA1FA1783000B1AE0E /* unlockTextUITests */,
+				112814B51FA1783000B1AE0E /* Products */,
+				112814EA1FA1793A00B1AE0E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		112814B51FA1783000B1AE0E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				112814B41FA1783000B1AE0E /* YZXUnlockText.app */,
+				112814CC1FA1783000B1AE0E /* YZXUnlockTextTests.xctest */,
+				112814D71FA1783000B1AE0E /* YZXUnlockTextUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		112814B61FA1783000B1AE0E /* unlockText */ = {
+			isa = PBXGroup;
+			children = (
+				112814B71FA1783000B1AE0E /* AppDelegate.h */,
+				112814B81FA1783000B1AE0E /* AppDelegate.m */,
+				11828D2C1FA181BF009B3609 /* HomeViewController.h */,
+				11828D2D1FA181BF009B3609 /* HomeViewController.m */,
+				11828D2F1FA181D1009B3609 /* HomeViewController.xib */,
+				112814ED1FA17B5000B1AE0E /* LoginViewController.h */,
+				112814EE1FA17B5000B1AE0E /* LoginViewController.m */,
+				112814EF1FA17B5000B1AE0E /* LoginViewController.xib */,
+				11F5E5C81FA1CA2700122A28 /* UnlockViewController.h */,
+				11F5E5C91FA1CA2700122A28 /* UnlockViewController.m */,
+				11F5E5CA1FA1CA2700122A28 /* UnlockViewController.xib */,
+				11C9C0B91FA1C58D0064806B /* Gestures */,
+				11C9C0B41FA1C12A0064806B /* TouchID */,
+				112814C01FA1783000B1AE0E /* Assets.xcassets */,
+				112814C21FA1783000B1AE0E /* LaunchScreen.storyboard */,
+				112814C51FA1783000B1AE0E /* Info.plist */,
+				112814C61FA1783000B1AE0E /* main.m */,
+			);
+			path = unlockText;
+			sourceTree = "<group>";
+		};
+		112814CF1FA1783000B1AE0E /* unlockTextTests */ = {
+			isa = PBXGroup;
+			children = (
+				112814D01FA1783000B1AE0E /* unlockTextTests.m */,
+				112814D21FA1783000B1AE0E /* Info.plist */,
+			);
+			path = unlockTextTests;
+			sourceTree = "<group>";
+		};
+		112814DA1FA1783000B1AE0E /* unlockTextUITests */ = {
+			isa = PBXGroup;
+			children = (
+				112814DB1FA1783000B1AE0E /* unlockTextUITests.m */,
+				112814DD1FA1783000B1AE0E /* Info.plist */,
+			);
+			path = unlockTextUITests;
+			sourceTree = "<group>";
+		};
+		112814EA1FA1793A00B1AE0E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				112814EB1FA1793A00B1AE0E /* LocalAuthentication.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		11C9C0B41FA1C12A0064806B /* TouchID */ = {
+			isa = PBXGroup;
+			children = (
+				11F5E5D21FA1DA4A00122A28 /* TouchIDViewController.h */,
+				11F5E5D31FA1DA4A00122A28 /* TouchIDViewController.m */,
+				11F5E5D41FA1DA4A00122A28 /* TouchIDViewController.xib */,
+			);
+			path = TouchID;
+			sourceTree = "<group>";
+		};
+		11C9C0B91FA1C58D0064806B /* Gestures */ = {
+			isa = PBXGroup;
+			children = (
+				8547354F207AF45100F28A94 /* Keychain */,
+				11F5E5CD1FA1CDF000122A28 /* GesturesViewController.h */,
+				11F5E5CE1FA1CDF000122A28 /* GesturesViewController.m */,
+				11F5E5CF1FA1CDF000122A28 /* GesturesViewController.xib */,
+				11FED0B71FA2D49A0097AD45 /* GesturesView.h */,
+				11FED0B81FA2D49A0097AD45 /* GesturesView.m */,
+				11F5E5D71FA1DD2100122A28 /* PointView.h */,
+				11F5E5D81FA1DD2100122A28 /* PointView.m */,
+			);
+			path = Gestures;
+			sourceTree = "<group>";
+		};
+		8547354F207AF45100F28A94 /* Keychain */ = {
+			isa = PBXGroup;
+			children = (
+				85473550207AF46400F28A94 /* YZXKeychain.h */,
+				85473551207AF46500F28A94 /* YZXKeychain.m */,
+			);
+			path = Keychain;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		112814B31FA1783000B1AE0E /* YZXUnlockText */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 112814E01FA1783000B1AE0E /* Build configuration list for PBXNativeTarget "YZXUnlockText" */;
+			buildPhases = (
+				112814B01FA1783000B1AE0E /* Sources */,
+				112814B11FA1783000B1AE0E /* Frameworks */,
+				112814B21FA1783000B1AE0E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YZXUnlockText;
+			productName = unlockText;
+			productReference = 112814B41FA1783000B1AE0E /* YZXUnlockText.app */;
+			productType = "com.apple.product-type.application";
+		};
+		112814CB1FA1783000B1AE0E /* YZXUnlockTextTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 112814E31FA1783000B1AE0E /* Build configuration list for PBXNativeTarget "YZXUnlockTextTests" */;
+			buildPhases = (
+				112814C81FA1783000B1AE0E /* Sources */,
+				112814C91FA1783000B1AE0E /* Frameworks */,
+				112814CA1FA1783000B1AE0E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				112814CE1FA1783000B1AE0E /* PBXTargetDependency */,
+			);
+			name = YZXUnlockTextTests;
+			productName = unlockTextTests;
+			productReference = 112814CC1FA1783000B1AE0E /* YZXUnlockTextTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		112814D61FA1783000B1AE0E /* YZXUnlockTextUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 112814E61FA1783000B1AE0E /* Build configuration list for PBXNativeTarget "YZXUnlockTextUITests" */;
+			buildPhases = (
+				112814D31FA1783000B1AE0E /* Sources */,
+				112814D41FA1783000B1AE0E /* Frameworks */,
+				112814D51FA1783000B1AE0E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				112814D91FA1783000B1AE0E /* PBXTargetDependency */,
+			);
+			name = YZXUnlockTextUITests;
+			productName = unlockTextUITests;
+			productReference = 112814D71FA1783000B1AE0E /* YZXUnlockTextUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		112814AC1FA1783000B1AE0E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "尹星";
+				TargetAttributes = {
+					112814B31FA1783000B1AE0E = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
+					};
+					112814CB1FA1783000B1AE0E = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 112814B31FA1783000B1AE0E;
+					};
+					112814D61FA1783000B1AE0E = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 112814B31FA1783000B1AE0E;
+					};
+				};
+			};
+			buildConfigurationList = 112814AF1FA1783000B1AE0E /* Build configuration list for PBXProject "YZXUnlockText" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 112814AB1FA1783000B1AE0E;
+			productRefGroup = 112814B51FA1783000B1AE0E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				112814B31FA1783000B1AE0E /* YZXUnlockText */,
+				112814CB1FA1783000B1AE0E /* YZXUnlockTextTests */,
+				112814D61FA1783000B1AE0E /* YZXUnlockTextUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		112814B21FA1783000B1AE0E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11F5E5D11FA1CDF000122A28 /* GesturesViewController.xib in Resources */,
+				112814F11FA17B5000B1AE0E /* LoginViewController.xib in Resources */,
+				11F5E5D61FA1DA4A00122A28 /* TouchIDViewController.xib in Resources */,
+				11F5E5CC1FA1CA2700122A28 /* UnlockViewController.xib in Resources */,
+				112814C41FA1783000B1AE0E /* LaunchScreen.storyboard in Resources */,
+				11828D301FA181D1009B3609 /* HomeViewController.xib in Resources */,
+				112814C11FA1783000B1AE0E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		112814CA1FA1783000B1AE0E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		112814D51FA1783000B1AE0E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		112814B01FA1783000B1AE0E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11F5E5D01FA1CDF000122A28 /* GesturesViewController.m in Sources */,
+				11F5E5D51FA1DA4A00122A28 /* TouchIDViewController.m in Sources */,
+				112814F01FA17B5000B1AE0E /* LoginViewController.m in Sources */,
+				11F5E5D91FA1DD2100122A28 /* PointView.m in Sources */,
+				11F5E5CB1FA1CA2700122A28 /* UnlockViewController.m in Sources */,
+				11FED0B91FA2D49B0097AD45 /* GesturesView.m in Sources */,
+				112814C71FA1783000B1AE0E /* main.m in Sources */,
+				85473552207AF46500F28A94 /* YZXKeychain.m in Sources */,
+				112814B91FA1783000B1AE0E /* AppDelegate.m in Sources */,
+				11828D2E1FA181BF009B3609 /* HomeViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		112814C81FA1783000B1AE0E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				112814D11FA1783000B1AE0E /* unlockTextTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		112814D31FA1783000B1AE0E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				112814DC1FA1783000B1AE0E /* unlockTextUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		112814CE1FA1783000B1AE0E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 112814B31FA1783000B1AE0E /* YZXUnlockText */;
+			targetProxy = 112814CD1FA1783000B1AE0E /* PBXContainerItemProxy */;
+		};
+		112814D91FA1783000B1AE0E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 112814B31FA1783000B1AE0E /* YZXUnlockText */;
+			targetProxy = 112814D81FA1783000B1AE0E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		112814C21FA1783000B1AE0E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				112814C31FA1783000B1AE0E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		112814DE1FA1783000B1AE0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		112814DF1FA1783000B1AE0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		112814E11FA1783000B1AE0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = YZXUnlockText.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 77SZSJ7882;
+				INFOPLIST_FILE = unlockText/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yx.unlockText;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		112814E21FA1783000B1AE0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = YZXUnlockText.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 77SZSJ7882;
+				INFOPLIST_FILE = unlockText/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yx.unlockText;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		112814E41FA1783000B1AE0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = unlockTextTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yx.unlockTextTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YZXUnlockText.app/YZXUnlockText";
+			};
+			name = Debug;
+		};
+		112814E51FA1783000B1AE0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = unlockTextTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yx.unlockTextTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YZXUnlockText.app/YZXUnlockText";
+			};
+			name = Release;
+		};
+		112814E71FA1783000B1AE0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = unlockTextUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yx.unlockTextUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = unlockText;
+			};
+			name = Debug;
+		};
+		112814E81FA1783000B1AE0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = unlockTextUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yx.unlockTextUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = unlockText;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		112814AF1FA1783000B1AE0E /* Build configuration list for PBXProject "YZXUnlockText" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				112814DE1FA1783000B1AE0E /* Debug */,
+				112814DF1FA1783000B1AE0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		112814E01FA1783000B1AE0E /* Build configuration list for PBXNativeTarget "YZXUnlockText" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				112814E11FA1783000B1AE0E /* Debug */,
+				112814E21FA1783000B1AE0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		112814E31FA1783000B1AE0E /* Build configuration list for PBXNativeTarget "YZXUnlockTextTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				112814E41FA1783000B1AE0E /* Debug */,
+				112814E51FA1783000B1AE0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		112814E61FA1783000B1AE0E /* Build configuration list for PBXNativeTarget "YZXUnlockTextUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				112814E71FA1783000B1AE0E /* Debug */,
+				112814E81FA1783000B1AE0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 112814AC1FA1783000B1AE0E /* Project object */;
+}
